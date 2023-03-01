@@ -5,9 +5,11 @@ namespace Parcel.Models
   public class Package
   {
     public int Length { get; set; }
-    public Package(int length)
+    public int Width { get; set; }
+    public Package(int length, int width)
     {
       Length = length;
+      Width = width;
     }
   }
 }
