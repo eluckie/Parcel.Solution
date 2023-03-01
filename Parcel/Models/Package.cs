@@ -19,5 +19,10 @@ namespace Parcel.Models
     {
       return Length * Width * Height;
     }
+
+    public int CostToShip()
+    {
+      return (Width * Height) / Weight;
+    }
   }
 }

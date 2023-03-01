@@ -57,5 +57,14 @@ namespace Parcel.Tests
       int packageVolume = newPackage.Volume();
       Assert.AreEqual(result, packageVolume);
     }
+
+    [TestMethod]
+    public void CostToShip_ReturnsPackagesCostToShip_Int()
+    {
+      Package newPackage = new Package(5, 6, 7, 10);
+      int result = (6 * 7) / 10;
+      int packageCost = newPackage.CostToShip();
+      Assert.AreEqual(result, packageCost);
+    }
   }
 }
