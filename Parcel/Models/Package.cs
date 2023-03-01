@@ -6,10 +6,12 @@ namespace Parcel.Models
   {
     public int Length { get; set; }
     public int Width { get; set; }
-    public Package(int length, int width)
+    public int Height { get; set; }
+    public Package(int length, int width, int height)
     {
       Length = length;
       Width = width;
+      Height = height;
     }
   }
 }
