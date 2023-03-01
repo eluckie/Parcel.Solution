@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using Parcel.Models;
 
-namespace ProjectName.Tests
+namespace Parcel.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class ParcelTests
   {
     [TestMethod]
     public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()

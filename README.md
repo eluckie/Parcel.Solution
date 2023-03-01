@@ -1,8 +1,8 @@
-# _{Application Name}_
+# Parcel
 
 #### By E. Luckie ☀️
 
-#### _{Brief description of application}_
+#### This webpage acts as a shipping cost estimator for a faux shipping company.
 
 ## Technologies Used
 
@@ -18,22 +18,20 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Setup/Installation Requirements
 
-1. Clone this repo.
-2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called _{ProjectName}.Solution_.
-3. In the command line, run the command ``dotnet run`` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal.
-4. Optionally, you can run ``dotnet build`` to compile this console app without running it.
+1. Clone this repo
+2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called **Parcel**
+3. In the command line, run the command ``dotnet watch run`` to compile and execute the console application in your browser in development mode
+* This will also automatically run the _restore_ command to retrieve and install the necessary packages for this application
+* Optionally, you can run ``dotnet build`` to compile this console app without running it
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+### To Run Tests
+1. Navigate to this project's test directory called **Parcel.Tests**
+2. If the project hasn't already been restored, run ``dotnet restore``
+3. In the command line, run the command ``dotnet test`` to perform the tests and verify 100% pass-rate
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
-
-## Stretch Plans
-
-* _desired functionality_
-* _to add at a later time_
+* No known bugs.
 
 ## License
 
