@@ -31,7 +31,7 @@ This webpage acts as a shipping cost calculator for a faux business. From the ho
 
 ## Known Bugs
 
-* If user does not enter a number, package still submits but calculations are incorrect because they're using a 0.
+* No known bugs.
 
 ## License
 
