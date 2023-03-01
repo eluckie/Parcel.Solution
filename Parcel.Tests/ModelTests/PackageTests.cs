@@ -48,5 +48,14 @@ namespace Parcel.Tests
       int result = newPackage.Weight;
       Assert.AreEqual(packageWeight, result);
     }
+
+    [TestMethod]
+    public void Volume_ReturnsPackageVolume_Int()
+    {
+      Package newPackage = new Package(5, 6, 7, 10);
+      int result = 5 * 6 * 7;
+      int packageVolume = newPackage.Volume();
+      Assert.AreEqual(result, packageVolume);
+    }
   }
 }
