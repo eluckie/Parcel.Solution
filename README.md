@@ -14,7 +14,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This webpage acts as a shipping cost calculator for a faux business. From the homepage, users are instructed to fill in the form with their package's length, width, and height in inches and the package's weight in pounds. Once they click calculate, they're displayed their packages dimensions along with the volume and total shipping cost. From there, users are able to click the link at the bottom to calculate another package's shipping cost.
 
 ## Setup/Installation Requirements
 
@@ -31,7 +31,7 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Known Bugs
 
-* No known bugs.
+* If user does not enter a number, package still submits but calculations are incorrect because they're using a 0.
 
 ## License
 
