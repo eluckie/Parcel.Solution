@@ -5,12 +5,10 @@ namespace Parcel.Controllers
 {
   public class HomeController : Controller
   {
-    [Route("/path")]
-    public ActionResult Path()
+    [HttpGet("/")]
+    public ActionResult Index()
     {
-      ClassName variableName = new ClassName();
-      variableName.PropertyName = "";
-      return View(variableName);
+      return View();
     }
   }
 }
